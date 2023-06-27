@@ -6,6 +6,8 @@ using static Unity.Mathematics.math;
 public class globalVars : MonoBehaviour
 {
     public static float gravitationalConstant;
+    public static List<GameObject> planetList = new List<GameObject>();
+    public static float sphereOfInfluence = 10f;
     public bool useRealWorldConstant = false;
     void Start()
     {
@@ -17,6 +19,7 @@ public class globalVars : MonoBehaviour
         {
             gravitationalConstant = 1;
         }
+        
     }
 
     // Update is called once per frame

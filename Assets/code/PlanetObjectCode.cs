@@ -5,7 +5,7 @@ using UnityEngine;
 public class planetObject : MonoBehaviour
 {
     public string planetName;
-    public int density = 1;
+    public float density = 1;
     
     
     
